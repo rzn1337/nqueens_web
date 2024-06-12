@@ -1,10 +1,12 @@
 echo "BUILD START"
 
-# create a virtual environment named 'venv' if it doesn't already exist
-python3.9 -m venv venv
 
-# activate the virtual environment
-source venv/bin/activate
+# python3.9 -m venv venv
+# source venv/bin/activate
+
+python3 -m venv virtualenv
+source virtualenv/bin/activate
+pip install django (this installs with python3 pip)
 
 # install all deps in the venv
 pip install -r requirements.txt
