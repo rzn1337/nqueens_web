@@ -6,7 +6,7 @@ echo "BUILD START"
 
 python3 -m venv virtualenv
 source virtualenv/bin/activate
-pip install django (this installs with python3 pip)
+pip install django 
 
 # install all deps in the venv
 pip install -r requirements.txt
